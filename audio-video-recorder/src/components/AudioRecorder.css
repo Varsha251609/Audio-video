@@ -1,0 +1,94 @@
+.recorder-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+  
+  .toggle-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .videopreview {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .videopreview.hidden {
+    display: none;
+  }
+  
+  .start-stop-btn {
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  .start-btn, .stop-btn, .download-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .start-btn {
+    background-color: green;
+    color: white;
+  }
+  
+  .stop-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .download-btn {
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .timer {
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
+  .previous-recordings {
+    margin-top: 30px;
+  }
+  
+  .recording-item {
+    margin-bottom: 15px;
+  }
+  
+  .small-video {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* .preview-row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid red;
+    justify-content: space-between;
+  } */
+  
